@@ -3,11 +3,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", "").strip()
-API_HASH = os.getenv("API_HASH", "").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
-MUST_JOIN = os.getenv("MUST_JOIN", "")
+API_ID = os.getenv("API_ID", "6151017").strip()
+API_HASH = os.getenv("API_HASH", "5d125071b09e07b14a7837a2de4c6dad").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7445547849:AAHfX4_8TQ57cg71Q_l9ABoa6RfgfPWHgsE").strip()
+DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://admin:admin123@cluster0.025ahvi.mongodb.net/").strip()
+MUST_JOIN = os.getenv("MUST_JOIN", "movies0x2")
 
 if not API_ID:
     print("No API_ID found. Exiting...")
